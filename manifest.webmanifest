@@ -1,7 +1,6 @@
 {
   "name": "MediaSave Pro",
   "short_name": "MediaSave",
-  "description": "Private direct media file saver",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
