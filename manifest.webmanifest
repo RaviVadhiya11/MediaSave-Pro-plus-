@@ -1,0 +1,18 @@
+{
+  "name": "MediaSave Pro",
+  "short_name": "MediaSave",
+  "description": "Private direct media file saver",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0b0715",
+  "theme_color": "#100a20",
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

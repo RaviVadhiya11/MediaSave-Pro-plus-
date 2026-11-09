@@ -1,37 +1,29 @@
-MEDIASAVE PRO — FRESH START
+MEDIASAVE PRO PREMIUM — GITHUB PAGES
 
-IMPORTANT:
-This package is made for the GitHub Pages user-site address:
-https://vivadhiya11.github.io/
+Repository: vivadhiya11.github.io
+Website: https://vivadhiya11.github.io/
 
-The repository name must be exactly:
-vivadhiya11.github.io
-
-This version has CSS and JavaScript embedded inside each HTML page, so there is no external CSS path to break.
-
-MOBILE INSTALL:
+UPLOAD:
 1. Extract this ZIP on your Android phone.
-2. Open https://github.com and sign in.
-3. Open the repository named vivadhiya11.github.io.
-4. Back up/download anything important first. If replacing the old site, remove old conflicting files only after backup.
-5. Upload these files directly to the repository root:
+2. Open your GitHub repository named vivadhiya11.github.io.
+3. Back up existing files before replacing anything.
+4. Upload these files directly into the repository root (not inside a folder):
    index.html
-   privacy.html
-   contact.html
+   manifest.webmanifest
+   sw.js
+   icon.svg
    robots.txt
    sitemap.xml
-   README.txt
-6. Do NOT put these files inside another folder. Do NOT upload only the ZIP.
-7. Commit changes.
-8. Open Settings > Pages. Source: Deploy from a branch. Branch: main. Folder: /(root). Save.
-9. Wait for deployment to finish.
-10. Open https://vivadhiya11.github.io/ in Chrome and hard refresh, or open an Incognito tab.
+5. Commit changes.
+6. Settings > Pages > Deploy from a branch > main > /(root) > Save.
+7. Wait for deployment to finish.
+8. Open the site in Chrome Incognito or clear cached site data and reload.
 
-BEFORE PUBLISH:
-Replace YOUR-EMAIL@example.com in contact.html with an email address you control.
+CONTACT:
+Before publishing, edit index.html and replace YOUR-EMAIL@example.com with an email you control.
 
 FEATURES:
-Premium dark purple UI, responsive mobile design, dark/light toggle, local download history, privacy page, contact page, SEO description, robots and sitemap.
+Premium responsive dark-purple design, light/dark mode, direct media URL checker, audio/video preview attempt, download progress when Content-Length is exposed, MIME/file type detection, local download history, clear history, PWA manifest, service worker, install prompt, SEO meta tags, FAQ, privacy, contact section.
 
 LIMITATIONS:
-This is a static direct-file downloader helper. It does not extract videos from Instagram, Facebook or YouTube pages, bypass DRM, or circumvent platform restrictions. Remote file host must permit browser CORS access.
+GitHub Pages is static hosting. This project downloads only direct media-file URLs that the remote host permits browser access to (CORS). It does not extract Instagram, Facebook or YouTube posts, bypass DRM, login walls or platform controls. Preview may be blocked by the host. Only download content you own or have permission to save.
